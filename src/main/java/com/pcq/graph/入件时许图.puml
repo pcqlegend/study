@@ -1,0 +1,6 @@
+@startuml
+CRM -> 飞鱼: 入件信息录入poi_id,银行卡信息，资质信息
+飞鱼 -> 支付机构:  入件信息录入poi_id,银行卡信息，资质信息
+支付机构 -> 飞鱼:  merchantId
+飞鱼 -> CRM:  merchantId
+@enduml
